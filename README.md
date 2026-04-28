@@ -1,4 +1,4 @@
-# FinDash — Personal Finance Dashboard
+# FinDash: Personal Finance Dashboard
 
 A full-featured personal finance dashboard built with **React + Vite**. Tracks live stock prices, visualises monthly spending, and includes a full mortgage/loan calculator with amortisation schedule.
 
