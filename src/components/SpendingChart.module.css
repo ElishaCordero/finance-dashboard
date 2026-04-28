@@ -1,0 +1,16 @@
+.wrap { display: flex; flex-direction: column; gap: 12px; }
+.chartRow { display: flex; gap: 16px; align-items: center; }
+.legend { flex: 1; display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.legRow { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+.dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+.catName { color: var(--text2); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.amt { font-weight: 500; cursor: pointer; min-width: 52px; text-align: right; }
+.amt:hover { color: var(--accent); }
+.amtInput { width: 64px; text-align: right; background: var(--surface2); border: 0.5px solid var(--accent); border-radius: 4px; padding: 1px 4px; font-size: 12px; color: var(--text); outline: none; }
+.removeBtn { background: none; border: none; color: var(--text3); font-size: 14px; line-height: 1; opacity: 0; padding: 0 2px; }
+.legRow:hover .removeBtn { opacity: 1; }
+.total { font-size: 11px; color: var(--text2); border-top: 0.5px solid var(--border2); padding-top: 6px; margin-top: 2px; }
+.addForm { display: flex; gap: 6px; align-items: center; }
+.addInput { background: var(--surface2); border: 0.5px solid var(--border); border-radius: var(--radius); padding: 5px 8px; font-size: 12px; color: var(--text); outline: none; flex: 1; min-width: 0; }
+.addInput:focus { border-color: var(--accent); }
+.addBtn { background: var(--accent); color: #fff; border: none; border-radius: var(--radius); padding: 6px 12px; font-size: 12px; font-weight: 500; white-space: nowrap; }

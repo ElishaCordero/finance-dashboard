@@ -1,0 +1,19 @@
+.wrap { display: flex; flex-direction: column; gap: 12px; }
+.inputs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.field { display: flex; flex-direction: column; gap: 4px; }
+.label { font-size: 11px; color: var(--text2); }
+.inputWrap { display: flex; align-items: center; border: 0.5px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--surface2); }
+.affix { padding: 0 8px; font-size: 12px; color: var(--text2); background: var(--surface2); }
+.input { flex: 1; padding: 6px 4px; background: transparent; border: none; outline: none; font-size: 13px; font-weight: 500; color: var(--text); min-width: 0; }
+.results { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.resultCard { background: var(--surface2); border-radius: var(--radius); padding: 10px; }
+.resultLabel { font-size: 11px; color: var(--text2); margin-bottom: 3px; }
+.resultVal { font-size: 16px; font-weight: 500; }
+.tableBtn { align-self: flex-start; background: none; border: 0.5px solid var(--border); border-radius: var(--radius); padding: 5px 12px; font-size: 12px; color: var(--text2); }
+.tableBtn:hover { background: var(--surface2); }
+.tableWrap { overflow-x: auto; max-height: 240px; overflow-y: auto; border: 0.5px solid var(--border); border-radius: var(--radius); }
+.table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.table th { padding: 8px 10px; text-align: right; font-weight: 500; color: var(--text2); font-size: 11px; background: var(--surface2); position: sticky; top: 0; }
+.table th:first-child, .table td:first-child { text-align: left; }
+.table td { padding: 6px 10px; text-align: right; border-top: 0.5px solid var(--border2); }
+.tableNote { font-size: 11px; color: var(--text2); padding: 6px 10px; text-align: center; }
